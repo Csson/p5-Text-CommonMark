@@ -2,8 +2,7 @@ use strict;
 use Test::More;
 use Text::CommonMark;
 
-# replace with the actual test
-ok 1;
+is commonmark_to_html('hello'), "<p>hello</p>\n", 'parsed commonmark';
 
 done_testing;
 
