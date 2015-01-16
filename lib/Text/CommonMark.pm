@@ -1,5 +1,8 @@
 package Text::CommonMark;
 
+# VERSION
+# ABSTRACT: A wrapper around the CommonMark C library
+
 use strict;
 use warnings;
 use Exporter;
@@ -29,10 +32,6 @@ __END__
 
 =encoding utf-8
 
-=head1 NAME
-
-Text::CommonMark - A wrapper around the CommonMark C library
-
 =head1 SYNOPSIS
 
   use Text::CommonMark;
@@ -42,7 +41,7 @@ Text::CommonMark - A wrapper around the CommonMark C library
 
 =head1 DESCRIPTION
 
-Text::CommonMark is just a wrapper around the L<CommonMark|http://commonmark.org/> C parser. CommonMark is a
+Text::CommonMark is a wrapper around the L<CommonMark|http://commonmark.org/> C parser. CommonMark is a
 variant of L<Markdown|http://daringfireball.net/projects/markdown/>.
 
 =head1 FUNCTIONS
@@ -55,7 +54,7 @@ It takes a CommonMark-formatted string, and returns the string parsed to html.
 
 =head1 REQUIREMENTS
 
-You need to have installed C<libcmark.so>, available on L<Github|https://github.com/jgm/CommonMark>. C<libcmark.so> must be in C</usr/local/lib>.
+You need to have C<libcmark.so> installed, available on L<Github|https://github.com/jgm/CommonMark>. C<libcmark.so> must be in C</usr/local/lib>.
 
 =head1 SEE ALSO
 
@@ -63,25 +62,7 @@ L<Text::Markdown>
 
 =head1 ACKNOWLEDGMENTS
 
-Big thanks to Ikegami and Paul Evans for helping with this.
-
-=head1 DISCLAIMER
-
-This is not a part of either the CommonMark och Markdown projects.
-
-
-=head1 AUTHOR
-
-Erik Carlsson E<lt>info@code301.comE<gt>
-
-=head1 COPYRIGHT
-
-Copyright 2014 - Erik Carlsson
-
-=head1 LICENSE
-
-This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself.
+Big thanks to Ikegami and Paul Evans for helping with this on StackOverflow.
 
 =cut
 
