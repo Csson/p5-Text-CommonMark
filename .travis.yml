@@ -13,6 +13,9 @@ before_install:
    - git config --global user.email $HOSTNAME":not-for-mail@travis-ci.org"
    - sudo apt-get update -qq && sudo apt-get install cmake
 install:
+   - sudo apt-get update -qq
+   - cd CommonMark
+   - make
    - sudo make install
    - cd ..
    - cpanm --quiet --notest --skip-satisfied Dist::Zilla
