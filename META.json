@@ -4,7 +4,7 @@
       "Erik Carlsson <info@code301.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 5.020, CPAN::Meta::Converter version 2.143240",
+   "generated_by" : "Dist::Zilla version 5.029, CPAN::Meta::Converter version 2.143240",
    "license" : [
       "perl_5"
    ],
@@ -31,19 +31,35 @@
       },
       "develop" : {
          "requires" : {
-            "Test::More" : "0",
-            "Test::NoTabs" : "0",
             "Test::Pod" : "1.41"
          }
       },
       "runtime" : {
          "requires" : {
             "Exporter" : "0",
-            "Inline::C" : "0"
+            "Inline::C" : "0",
+            "perl" : "5.010001"
          }
       }
    },
+   "provides" : {
+      "Text::CommonMark" : {
+         "file" : "lib/Text/CommonMark.pm",
+         "version" : "0.0002"
+      }
+   },
    "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/Csson/p5-Text-CommonMark/issues"
+      },
+      "homepage" : "https://metacpan.org/release/Text-CommonMark",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/Csson/p5-Text-CommonMark.git",
+         "web" : "https://github.com/Csson/p5-Text-CommonMark"
+      }
+   },
    "version" : "0.0002"
 }
 
