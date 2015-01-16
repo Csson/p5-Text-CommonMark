@@ -37,6 +37,7 @@
       "runtime" : {
          "requires" : {
             "Exporter" : "0",
+            "Inline" : "0",
             "Inline::C" : "0",
             "perl" : "5.010001"
          }
