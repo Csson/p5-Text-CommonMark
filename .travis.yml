@@ -12,7 +12,7 @@ before_install:
    - git config --global user.name "TravisCI"
    - git config --global user.email $HOSTNAME":not-for-mail@travis-ci.org"
    - sudo apt-get update -qq
-   - sudo /bin/sh -c apt-get install -y aptitude
+   - sudo apt-get install -y aptitude
    - sudo aptitude install devscripts
    - dget -x -u http://archive.ubuntu.com/ubuntu/pool/main/c/cmake/cmake_2.8.12.2-0ubuntu3.devscripts
    - sudo aptitude build-dep cmake
