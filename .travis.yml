@@ -19,7 +19,7 @@ before_install:
    - dget -x -u http://archive.ubuntu.com/ubuntu/pool/main/c/cmake/cmake_2.8.12.2-0ubuntu3.dsc
    - sudo aptitude -y build-dep cmake
    - sudo apt-get install --yes --force-yes bash-completion
-;   - sudo apt-get install --yes --force-yes fakeroot
+#   - sudo apt-get install --yes --force-yes fakeroot
    - cd cmake*
    - sudo dpkg-buildpackage -d
    - sudo dpkg -i ../cmake*deb
