@@ -14,7 +14,7 @@ before_install:
    - sudo apt-get update -qq
    - sudo apt-get remove --purge debhelper file libtool
    - sudo apt-get install --yes --force-yes aptitude
-   - sudo aptitude install devscripts
+   - sudo aptitude install --yes --force-yes devscripts
    - dget -x -u http://archive.ubuntu.com/ubuntu/pool/main/c/cmake/cmake_2.8.12.2-0ubuntu3.devscripts
    - sudo aptitude build-dep cmake
    - cd cmake* && fakeroot dpkg-buildpackage -d
