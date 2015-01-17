@@ -17,7 +17,7 @@ before_install:
    - sudo aptitude install -y devscripts
    - sudo apt-get install libcurl3-gnutls
    - dget -x -u http://archive.ubuntu.com/ubuntu/pool/main/c/cmake/cmake_2.8.12.2-0ubuntu3.dsc
-   - sudo aptitude build-dep cmake
+   - sudo aptitude -y build-dep cmake
    - cd cmake* && fakeroot dpkg-buildpackage -d
    - sudo dpkg -i ../cmake*deb
    - cd ..
