@@ -4,7 +4,7 @@ Text::CommonMark - A wrapper around the CommonMark C library
 
 # VERSION
 
-Version 0.0001, released 2015-01-17.
+Version 0.0003, released 2015-01-19.
 
 # SYNOPSIS
 
