@@ -54,7 +54,7 @@ It takes a CommonMark-formatted string, and returns the string parsed to html.
 
 =head1 REQUIREMENTS
 
-You need to have C<libcmark.so> installed, available on L<Github|https://github.com/jgm/CommonMark>. C<libcmark.so> must be in C</usr/local/lib>.
+You need to have C<libcmark.so> installed, available on L<Github|https://github.com/jgm/cmark>. C<libcmark.so> must be in C</usr/local/lib>.
 
 =head1 SEE ALSO
 

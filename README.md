@@ -28,7 +28,7 @@ It takes a CommonMark-formatted string, and returns the string parsed to html.
 
 # REQUIREMENTS
 
-You need to have `libcmark.so` installed, available on [Github](https://github.com/jgm/CommonMark). `libcmark.so` must be in `/usr/local/lib`.
+You need to have `libcmark.so` installed, available on [Github](https://github.com/jgm/cmark). `libcmark.so` must be in `/usr/local/lib`.
 
 # SEE ALSO
 
