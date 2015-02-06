@@ -4,7 +4,7 @@ Text::CommonMark - A wrapper around the CommonMark C library
 
 # VERSION
 
-Version 0.0003, released 2015-01-19.
+Version 0.0003, released 2015-02-06.
 
 # SYNOPSIS
 
@@ -31,6 +31,8 @@ It takes a CommonMark-formatted string, and returns the string parsed to html.
 You need to have `libcmark.so` installed, available on [Github](https://github.com/jgm/CommonMark). `libcmark.so` must be in `/usr/local/lib`.
 
 # SEE ALSO
+
+[CommonMark](https://metacpan.org/pod/CommonMark)
 
 [Text::Markdown](https://metacpan.org/pod/Text::Markdown)
 

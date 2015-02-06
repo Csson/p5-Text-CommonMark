@@ -58,6 +58,8 @@ You need to have C<libcmark.so> installed, available on L<Github|https://github.
 
 =head1 SEE ALSO
 
+L<CommonMark>
+
 L<Text::Markdown>
 
 =head1 ACKNOWLEDGMENTS

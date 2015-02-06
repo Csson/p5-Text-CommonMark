@@ -6,10 +6,12 @@ Revision history for Text-CommonMark
  [Bug Fixes]
 
  [Documentation]
+ - Add CommonMark to See Also
 
  [Enhancements]
 
  [Meta]
+ - Don't rebuild travis configuration.
 
  [New Features]
 
