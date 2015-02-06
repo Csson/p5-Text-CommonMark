@@ -7,5 +7,5 @@ MYMETA.*
 /.prove
 /script
 /_Inline
-.travis-safe
+.travis.yml-safe
 
