@@ -22,8 +22,7 @@ before_install:
            echo 'Building without python3, to make sure that works.'
        fi
 install:
-   - git clone https://github.com/jgm/cmark.git CommonMark
-   - cd CommonMark
+   - curl -LJO https://github.com/jgm/cmark/archive/0.23.0.tar.gz
    - make
    - sudo make install
    - cd ..

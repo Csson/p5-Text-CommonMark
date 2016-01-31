@@ -1,22 +1,15 @@
 Revision history for Text-CommonMark
 
 {{$NEXT}}
- [API Changes]
+ - Deprecated.
 
- [Bug Fixes]
-
+0.0003 2015-02-06T23:01:39Z CET
  [Documentation]
  - Updated github info for CommonMark.
  - Add CommonMark to See Also.
 
- [Enhancements]
-
  [Meta]
  - Don't rebuild travis configuration.
-
- [New Features]
-
- [Revision]
 
 0.0002 2015-01-17T00:58:42Z CET
  [Meta]

@@ -9,8 +9,7 @@ prereqs:
     requires:
      - perl: 5.010001
      - Exporter
-     - Inline
-     - Inline::C
+     - CommonMark
 
 plugins:
  - +config: Author::CSSON
@@ -24,3 +23,5 @@ doctype: weaver
 
 plugins:
  - +config: Author::CSSON
+
+ - +remove_plugin: Badges

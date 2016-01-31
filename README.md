@@ -1,10 +1,10 @@
 # NAME
 
-Text::CommonMark - A wrapper around the CommonMark C library
+Text::CommonMark - A wrapper around the CommonMark C library (deprecated)
 
 # VERSION
 
-Version 0.0003, released 2015-02-06.
+Version 0.0004, released 2016-01-31.
 
 # SYNOPSIS
 
@@ -15,30 +15,9 @@ Version 0.0003, released 2015-02-06.
 
 # DESCRIPTION
 
-Text::CommonMark is a wrapper around the [CommonMark](http://commonmark.org/) C parser. CommonMark is a
-variant of [Markdown](http://daringfireball.net/projects/markdown/).
+Deprecated, will be removed from CPAN soon.
 
-# FUNCTIONS
-
-This package exports one function by default.
-
-## commonmark\_to\_html($text)
-
-It takes a CommonMark-formatted string, and returns the string parsed to html.
-
-# REQUIREMENTS
-
-You need to have `libcmark.so` installed, available on [Github](https://github.com/jgm/cmark). `libcmark.so` must be in `/usr/local/lib`.
-
-# SEE ALSO
-
-[CommonMark](https://metacpan.org/pod/CommonMark)
-
-[Text::Markdown](https://metacpan.org/pod/Text::Markdown)
-
-# ACKNOWLEDGMENTS
-
-Big thanks to Ikegami and Paul Evans for helping with this on StackOverflow.
+This is now a thin wrapper around [CommonMark](https://metacpan.org/pod/CommonMark). Use that directly instead.
 
 # SOURCE
 
@@ -54,7 +33,7 @@ Erik Carlsson <info@code301.com>
 
 # COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2015 by Erik Carlsson.
+This software is copyright (c) 2016 by Erik Carlsson.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
