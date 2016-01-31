@@ -1,0 +1,26 @@
+---
+doctype: dist
+
+header:
+  name: Text-CommonMark
+
+prereqs:
+  runtime:
+    requires:
+     - perl: 5.010001
+     - Exporter
+     - Inline
+     - Inline::C
+
+plugins:
+ - +config: Author::CSSON
+
+ - +remove_plugin: TravisYML
+
+ - +plugin: Deprecated
+
+---
+doctype: weaver
+
+plugins:
+ - +config: Author::CSSON
